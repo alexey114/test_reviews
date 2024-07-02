@@ -12,11 +12,20 @@
 .header{
   display: flex;
   justify-content: space-between;
-  align-self: flex-start
+  flex-wrap: wrap;
+  gap: 25px;
+
+  @media (max-width: 600px) {
+    gap: 50px;
+  }
 }
 
 .header-logo{
   width: 250px;
+
+  @media (max-width: 600px) {
+    order: 3;
+  }
 }
 
 .watch{

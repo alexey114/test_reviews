@@ -36,4 +36,5 @@ const mapDispatchToProps = (dispatch: AppDispatch): DispatchProps => ({
   setLanguage: (language: string) => dispatch(setLanguage(language))
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Selector);
+const ConnectedSelector = connect(mapStateToProps, mapDispatchToProps)(Selector);
+export default ConnectedSelector;

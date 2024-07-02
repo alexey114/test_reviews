@@ -78,4 +78,5 @@ const mapDispatchToProps = (dispatch: Dispatch): DispatchProps => ({
   setPage: (page: number) => dispatch(setPage(page)),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Reviews);
+const ConnectedReviews =  connect(mapStateToProps, mapDispatchToProps)(Reviews);
+export default ConnectedReviews;
