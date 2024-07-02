@@ -9,3 +9,5 @@
 - Передача состояния через Redux.
 
 Перед запуском выполняем npm i && npm run dev
+
+![image](https://github.com/alexey114/test_reviews/assets/25858872/5ce6bb04-ebe9-4381-bbbc-2cd8920e7eb0)
