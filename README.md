@@ -12,3 +12,7 @@
 Перед запуском выполняем npm i && npm run dev
 
 ![image](https://github.com/alexey114/test_reviews/assets/25858872/5ce6bb04-ebe9-4381-bbbc-2cd8920e7eb0)
+
+Вёрстка адаптирована до 370px:
+
+![image](https://github.com/alexey114/test_reviews/assets/25858872/2063d01c-c3fc-4be8-ae3a-e272b4d00b10)
