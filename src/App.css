@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.App{
+  height: 90vh;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start
+}
+
+.header-logo{
+  width: 250px;
+}
+
+.watch{
+  text-align: center;
+}
+
+.header_select{
+  align-self: flex-start;
+}
+
+.main{
+  max-width: 1200px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.page-numbers{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+
+  .page-numbers_choice{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+  }
+
+  .active{
+    background-color: rgb(31, 176, 199);
+    color: white;
+  }
+}
